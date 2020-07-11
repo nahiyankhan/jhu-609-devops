@@ -1,7 +1,12 @@
 ---
-post_title: 'Vagrant vs Docker'
+ID: 12
+post_title: Vagrant vs Docker
+author: Nahiyan Khan
+post_excerpt: ""
 layout: post
+permalink: http://one.wordpress.test/?p=12
 published: true
+post_date: 2020-07-11 22:01:49
 ---
 I have used Docker at work and personal projects. I have not come across Vagrant before. To set the stage better, here is my experience with Docker first. 
 Docker has been an immense lifesaver in my team. Over and over again the same repositories would have unique dependency issues on each of our machines. At first, I was giving a lot of time to help everyone resolve them but it was soon unscalable. Starting to use docker containers took that pain point off. The containers helped create a neutral shell for all the dependencies and it was agnostic of the host system. 
